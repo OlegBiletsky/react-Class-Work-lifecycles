@@ -1,11 +1,11 @@
 import React from 'react'
-import List from './components/list/list';
+import Search from './components/search/search';
 
 function App() {
-  return (
-    <div>
-        <List />
-    </div>
-  );
+    return (
+        <div>
+            <Search name="Some placeholder"/>
+        </div>
+    );
 }
 export default App;
