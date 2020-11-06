@@ -1,10 +1,10 @@
 import React from 'react'
-import Search from './components/search/search';
+import LifeCyclesMethods from "./components/lifeCyclesMethods/lifeCyclesMethods";
 
 function App() {
     return (
         <div>
-            <Search name="Some placeholder"/>
+            <LifeCyclesMethods name="Some placeholder"/>
         </div>
     );
 }
